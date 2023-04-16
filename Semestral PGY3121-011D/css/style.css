@@ -1,4 +1,5 @@
 .containercol {
+    width: 98%;
     padding-left: 15px;
     padding-top: 75px;
     background-color: rgb(252, 251, 251);
@@ -44,11 +45,24 @@
 }
 
 #productos{
+    background-color: rgb(252, 251, 251);
     display: flex;
     flex-direction: row;
-    padding-top: 25px;
-    padding-left: 15px;
+    padding-top: 25x;
+    padding-left: 30px;
+    
 }
+.card img{
+
+    height: 50%;
+    width: 100%;
+}
+
+#itemsCat{
+    text-align: center;
+    height: 90%;
+}
+
 body{
     /* SIRVE PARA MOVER FOOTER HACIA ABAJO
     display: grid;
