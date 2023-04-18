@@ -1,8 +1,9 @@
 .containercol {
-    width: 98%;
+    width: 97%;
+    height: 98%;
     padding-left: 15px;
     padding-top: 75px;
-    background-color: rgb(252, 251, 251);
+    background-color: rgb(252, 251, 251); 
 }
 /* cambiamos colores de las flechaas del carusel */
 .carousel-control-prev, .arousel-control-prev-icon{
@@ -33,9 +34,8 @@
     padding-top: 5px;
 }
 
+ /* arrastramos el boton hacia la derecha lo alejamos con un margin del borde y lo arrastamos hacia abajo*/
 .containerbtn{
-    /* arrastramos el boton hacia la derecha lo alejamos con un margin del borde y lo arrastamos hacia abajo*/
-   
     margin-right: 7px;
     text-align: end;
 }
@@ -51,7 +51,9 @@
 }
 
 #productos{
-    background-color: rgb(252, 251, 251);
+    width: 98.5%;
+    height: 97%;
+    background-color: rgb(252, 251, 251); 
     display: flex;
     flex-direction: row;
     padding-top: 25x;
@@ -64,38 +66,44 @@
     width: 100%;
 }
 
-#card1 img{
-    height: 50%;
-    width: 100%; 
-}
-
 #itemsCat{
     text-align: center;
     height: 90%;
 }
 
 body{
-    /* SIRVE PARA MOVER FOOTER HACIA ABAJO
+    /* SIRVE PARA MOVER FOOTER HACIA ABAJO*/
     display: grid;
     min-height: 100vh;
-    grid-template-rows: auto 1fr auto; */
+    grid-template-rows: auto 1fr auto; 
 }
+
+/* INICIO CSS FOOTER */
 .footer{
     padding-top: 30px;
-   
-  
-    
 }
 
 #fondo{
     height: 100%;
-    width: 100%;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrXDBsEOsFRS6Int8zhznFa-mthkAUUXj_BG7NdESXJtClm8GY2SY0d24opViOFXnw6U0&usqp=CAU");
-   
+    width: 100%; 
+    background-image: linear-gradient(to top, rgba(243, 241, 247, 0.5) 0%, rgba(240, 235, 238, 0.5) 100%),url(../img/fondofooterpetshop.jpg);
 }
 
+#fondo h3{
+    text-align: center;
+}
+
+#col1 img{
+    height: 25px;
+    width: 25px;
+}
+/* FIN CSS FOOTER */
+
+/* INICIO CSS CONTENEDOR TIPS */
 .containerTips{
     background-color: rgb(252, 251, 251); 
+    width: 97%;
+    height: 100%; 
 }
 
 .containerTips img{
@@ -111,12 +119,9 @@ body{
     margin-top: 100px;
 }
 
-#col1 img{
-    height: 25px;
-    width: 25px;
-}
+/* FIN CSS CONTENEDOR TIPS */
 
-/* Login */
+/*INICIO CSS LOGIN */
 .contenedorLogin{
     border: solid red;
     height: 80vh;
@@ -134,4 +139,16 @@ body{
 
 .input-group{
      padding: 5px; 
+}
+
+/*FIN CSS LOGIN */
+
+/* CONTENEDOR NOSOTROS */
+#sectionNosotros{
+    
+    width: 97%;
+    padding: 50px 10px;
+    text-align: center;
+    background-color: rgb(252, 251, 251); 
+    
 }
