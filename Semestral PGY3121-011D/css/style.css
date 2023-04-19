@@ -73,9 +73,9 @@
 
 body{
     /* SIRVE PARA MOVER FOOTER HACIA ABAJO*/
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto; 
+    display: grid; 
+    min-height: 100vh; 
+    grid-template-rows: auto 1fr auto;  
 }
 
 /* INICIO CSS FOOTER */
@@ -122,15 +122,17 @@ body{
 /* FIN CSS CONTENEDOR TIPS */
 
 /*INICIO CSS LOGIN */
-.contenedorLogin{
-    border: solid red;
-    height: 80vh;
+
+#contenedorLogin{
+    height: 70vh;
     width: 65vh;
-   
 }
 
-.contenedorLogin button{
+#contenedorLogin button{
     width: 100%;
+    display: flex;
+    justify-content: center;
+   
 }
 
 #loginTitulo{
