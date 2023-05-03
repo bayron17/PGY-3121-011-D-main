@@ -68,66 +68,69 @@
         </nav>
     </div>
 
-    <div class="container ">
+  <div class="container mt-5">
+
+    <form action="#" id="miFormulario">
+
       <div class="row">
+
         <div class="col-xl-8 my-2">
           
-          <label id="txtRut">rut: </label>
-          <input onblur="validar()" type="text" class="form-control" placeholder="12.123.123-2" id="txtRut" required>
-          <small id="valRut">Rut ingresado no valido!</small>
+          <label id="txtRut">Rut</label>
+          <input type="text" class="form-control" placeholder="12.123.123-2" name="rut">
 
         </div>
         <br>
         <div class="col-xl-8 my-2">
           
-          <label id="txtNombre">Nombre completo:</label>
-          <input onblur="validarFormulario()" type="text " class="form-control" placeholder="nombre completa" id="txtNombre" required>
-          <small id="valNombre">Nombre ingresado no valido!</small>
+          <label id="txtNombre">Nombre completo</label>
+          <input type="text " class="form-control" placeholder="nombre completa" name="nombre">
 
         </div>
         <div class="col-xl-8 my-2">
 
-          <label id="txtDireccion">Direccion:</label>
-            <input onblur="validarFormulario()" type="text" class="form-control" placeholder="Ingrese Direccion" id="txtDireccion" required>
-            <small id="valDireccion">Direccion ingresado no valido!</small>
+          <label id="txtDireccion">Direccion</label>
+            <input type="text" class="form-control" placeholder="Ingrese Direccion" name="direccion">
 
         </div>
         <div class="col-xl-8 my-2">
 
-          <label id="txtComuna">Comuna:</label>
-          <input onblur="validarFormulario()" type="text" class="form-control" placeholder="Ingrese comuna" id="txtComuna" required>
-          <small id="valComuna">Comuna ingresado no valido!</small>
+          <label id="txtComuna">Comuna</label>
+          <input type="text" class="form-control" placeholder="Ingrese comuna" name="comuna">
 
         </div>
         <div class="col-xl-8 my-2">
           
-          <label id="txtCorreo">Correo:</label>
-          <input onblur="validarFormulario()" type="text" class="form-control" placeholder="ejemplo@ejemplo.com" id="txtCorreo" required>
-          <small id="valCorreo">Correo ingresado no valido!</small>
+          <label id="txtCorreo">Correo</label>
+          <input type="text" class="form-control" placeholder="ejemplo@ejemplo.com" name="correo">
 
         </div>
         <div class="col-xl-8 my-2">
           
           <label id="txtNumero">Telefono</label>
-          <input onblur="validarFormulario()" type="text" class="form-control" placeholder="912345678" id="txtNumero" required>
-          <small id="valNumero">Numero ingresado no valido!</small>
+          <input type="text" class="form-control" placeholder="912345678" name="numero">
 
         </div>
 
         <br>
 
-        <button  type="button" class="btn btn-primary my-3" id="btnRegistrar">registrar</button>
+        <button  class="btn btn-primary my-3" id="btnRegistrar">registrar</button>
 
       </div>
-    </div>
+    </form>
+  </div>
 
-    <script src="js/registroUsuario.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
-    integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
-    crossorigin="anonymous"></script>
+
+
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+  integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+  crossorigin="anonymous"></script>
 
 </body>
 </html>
